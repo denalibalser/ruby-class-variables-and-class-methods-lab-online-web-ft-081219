@@ -18,6 +18,15 @@ class Song
     @@genres.unique
   end
 
+  def artists
+    @@artists.unique
+  end
+
+  #def artist_count
+    #@@artists.map do |
+
+
+
 
 
 
