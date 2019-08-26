@@ -3,7 +3,7 @@ class Song
   @@genres = []
   @@artists = []
 
-  def initialize(genre, artist, )
+  def initialize(genre, artist )
     @@count += 1
     @@genres << genre
     @@artists << artist
@@ -24,10 +24,5 @@ class Song
 
   #def artist_count
     #@@artists.map do |
-
-
-
-
-
 
 end
