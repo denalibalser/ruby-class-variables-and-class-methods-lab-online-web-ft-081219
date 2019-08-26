@@ -12,7 +12,6 @@ class Song
     @genre = genre
     @@genres << genre
     @@artists << artist
-
   end
 
   def self.count
@@ -27,7 +26,7 @@ class Song
     @@artists.uniq
   end
 
-  #def artist_count
-    #@@artists.map do |
+  def artist_count
+    @@artists.map do |
 
 end
